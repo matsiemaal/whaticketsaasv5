@@ -24,7 +24,22 @@ Estamos mudando a forma como lhe damos com o Whaticket.
 
 A Partir de agora disponibilizamos o acesso pago à versão mais atualizada, enquanto manteremos um diretório público e gratuito com uma versão um pouco mais defasada.
 
-Para adquirir a versão 5.2.6 acesse https://pay.kirvano.com/a5103244-08d5-418f-8221-7172849dd65f
+Para adquirir a versão 5.2.6 acesse uma das opções de checkou a seguir:
+
+InfinityPay:
+```
+https://loja.infinitepay.io/launcher-tecnologia/aep0253-script-crm-whaticket-gold-com-saas-e-kanba
+```
+
+Kirvano:
+```
+https://pay.kirvano.com/a5103244-08d5-418f-8221-7172849dd65f
+```
+
+DFG:
+```
+[DFG](https://www.dfg.com.br/pt/outros/script-crm-whaticket-gold-com-saas-e-kanban-inclusos-939289065)
+```
 
 Você deve ter um usuário do Github e juntar-se à nossa organização para acesso ao diretório privado com a última versão, você receberá também as credencias do Github para instalação, usuário e token. 
 O acesso é vitalício, as credencias são periodicamente renovadas, você sempre terá a informação das novas.
