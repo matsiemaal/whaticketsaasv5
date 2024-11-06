@@ -38,7 +38,7 @@ https://pay.kirvano.com/a5103244-08d5-418f-8221-7172849dd65f
 
 DFG:
 ```
-[DFG](https://www.dfg.com.br/pt/outros/script-crm-whaticket-gold-com-saas-e-kanban-inclusos-939289065)
+https://www.dfg.com.br/pt/outros/script-crm-whaticket-gold-com-saas-e-kanban-inclusos-939289065
 ```
 
 Você deve ter um usuário do Github e juntar-se à nossa organização para acesso ao diretório privado com a última versão, você receberá também as credencias do Github para instalação, usuário e token. 
@@ -81,7 +81,7 @@ efd3110c-e572-42b5-a6cb-5984a8811ad2
 
 Biblioteca Baileys Atualizada:</br>
 
-V 6.7.7
+V 6.7.9
 
 Instalador atualizado, versao NodeJS 20:
 
