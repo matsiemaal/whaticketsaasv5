@@ -66,7 +66,7 @@ O acesso é vitalício, as credencias são periodicamente renovadas, você sempr
 📜 Visualização de Grupos por Operador: Aba removida do painel de usuários. </br>
 💸 Atualização Financeira após Alteração de Plano: Valor ajustado automaticamente na lista do Financeiro. </br>
 
-24/07/2024 – Versão 5.2.6 - Versão Gratuita
+24/07/2024 – Versão 5.2.6 = Versão Gratuita
 
 ✅ Fechar todos os tickets abertos ou em espera. </br>
 👍 Reagir a uma mensagem. </br>
@@ -78,7 +78,7 @@ O acesso é vitalício, as credencias são periodicamente renovadas, você sempr
 🆕 Novo layout da página de login. </br>
 💬 Indicação “Digitando” ou “Gravando” aparece no ticket, no canto inferior direito, ao lado do nome. </br>
 
-24/07/2024 – Versão 5.0.0 - Gratuita
+24/07/2024 – Versão 5.0.0 = Gratuita
 
 🛠️ Fizemos correção no Vcard </br>
 🔄 Função de habilitar e desabilitar novos registros</br>
