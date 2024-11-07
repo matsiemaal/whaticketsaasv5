@@ -18,6 +18,14 @@ https://control.peramix.com/?affid=14
 
 Utilize o cupom WHATICKET e obtenha 25% de desconto no primeiro pagamento.
 
+🚨 ATENÇÃO: Está é uma versão arquivada, acesse a verão mais recente 5.2.6 em cortesia.
+
+Whaticket Gold 5.2.6 Gratuito
+
+```
+https://github.com/launcherbr/whaticketsaasfree
+```
+
 🚨 Atenção: 
 
 Estamos mudando a forma como lhe damos com o Whaticket.
