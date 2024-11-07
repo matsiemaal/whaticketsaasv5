@@ -24,7 +24,7 @@ Estamos mudando a forma como lhe damos com o Whaticket.
 
 A Partir de agora disponibilizamos o acesso pago à versão mais atualizada, enquanto manteremos um diretório público e gratuito com uma versão um pouco mais defasada.
 
-Para adquirir a versão 5.2.6 acesse uma das opções de checkou a seguir:
+Para adquirir a versão 5.3.5 acesse uma das opções de checkou a seguir:
 
 InfinityPay:
 ```
@@ -46,7 +46,21 @@ O acesso é vitalício, as credencias são periodicamente renovadas, você sempr
 
 ⚠️ Este diretório é uma cortesia da Launcher & Co. se você pagou por este acesso, foi enganado, recomendamos solicitar o estorno no seu cartão de crédito ou no seu banco.
 
-24/07/2024 – Versão 5.2.6 - Pago
+📅 07/11/2024 – Versão 5.3.5 = Versão Paga
+
+📅 Correção da Data de Vencimento no Topo: Data agora permanece fixa.
+🔄 Automação em Grupos: Não envia automações para grupos.
+🚫 Botão disableBot: Desabilita bots ou automações.
+✉️ Correção de Mensagem Citada.
+🔗 Permissão para Conexões com Mesmo Nome.
+⏳ Expiração de Conexões: Desconexão automática após vencimento da empresa.
+🗑️ Seleção para Deletar Contatos: Opção de seleção para exclusão na página “Contatos”.
+🎵 Correção no Envio de Áudio OGG em respostas rápidas.
+📂 Visualização de Tickets Fechados por Operador: Aba removida do painel de usuários.
+📜 Visualização de Grupos por Operador: Aba removida do painel de usuários.
+💸 Atualização Financeira após Alteração de Plano: Valor ajustado automaticamente na lista do Financeiro.
+
+24/07/2024 – Versão 5.2.6 - Versão Gratuita
 
 ✅ Fechar todos os tickets abertos ou em espera. </br>
 👍 Reagir a uma mensagem. </br>
