@@ -208,7 +208,7 @@ return (
           marginTop: 20
         }}
       >
-        <Tab label="Logotipos / Ícones" />
+        <Tab label="Logo's / Iconen" />
       </Tabs>
 
       <form onSubmit={handleSubmit} className={classes.fullWidth}>
@@ -222,9 +222,9 @@ return (
               onChange={handleOptionChange}
               style={{ marginTop: 15, marginBottom: 15}}
             >
-              <MenuItem value="signup">Tela de Registro</MenuItem>
-              <MenuItem value="login">Tela de Login</MenuItem>
-              <MenuItem value="interno">Logotipo Interno</MenuItem>
+              <MenuItem value="signup">Registratiescherm</MenuItem>
+              <MenuItem value="login">Inlogscherm</MenuItem>
+              <MenuItem value="interno">Intern Logo</MenuItem>
 			  <MenuItem value="favicon">Favicon.Ico</MenuItem>
               <MenuItem value="favicon-256x256">Ícone 256x256</MenuItem>
 			  <MenuItem value="apple-touch-icon">Apple Touch Icon</MenuItem>

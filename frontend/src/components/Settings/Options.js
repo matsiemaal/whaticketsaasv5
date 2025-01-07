@@ -644,7 +644,7 @@ export default function Options(props) {
             <Grid xs={12} sm={12} md={12} item>
                 <FormControl className={classes.selectContainer}>
                   <InputLabel id='allowregister-label'>
-                    Registro (Inscrição) Permitida?
+                    Registratie Toegestaan?
                   </InputLabel>
                   <Select
                     labelId='allowregister-label'
@@ -665,7 +665,7 @@ export default function Options(props) {
 				  <Grid xs={12} sm={12} md={12} item>
                 <FormControl className={classes.selectContainer}>
                   <InputLabel id='viewregister-label'>
-                    Registro (Inscrição) Visível?
+                    Registratie Zichtbaar?
                   </InputLabel>
                   <Select
                     labelId='viewregister-label'

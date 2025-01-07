@@ -148,7 +148,7 @@ export function PlanManagerForm(props) {
                         <Grid xs={12} sm={6} md={1} item>
                             <Field
                                 as={TextField}
-                                label="Filas"
+                                label="Wachtrijen"
                                 name="queues"
                                 variant="outlined"
                                 className={classes.fullWidth}
@@ -161,7 +161,7 @@ export function PlanManagerForm(props) {
                         <Grid xs={12} sm={6} md={1} item>
                             <Field
                                 as={TextField}
-                                label="Valor"
+                                label="Waarde"
                                 name="value"
                                 variant="outlined"
                                 className={classes.fullWidth}
@@ -173,7 +173,7 @@ export function PlanManagerForm(props) {
                         {/* CAMPANHAS */}
                         <Grid xs={12} sm={6} md={2} item>
                             <FormControl margin="dense" variant="outlined" fullWidth>
-                                <InputLabel htmlFor="useCampaigns-selection">{i18n.t("plans.form.campaigns")}</InputLabel>
+                                <InputLabel htmlFor="useCampaigns-selection">Campagnes</InputLabel>
                                 <Field
                                     as={Select}
                                     id="useCampaigns-selection"
@@ -191,7 +191,7 @@ export function PlanManagerForm(props) {
                         {/* AGENDAMENTOS */}
                         <Grid xs={12} sm={8} md={2} item>
                             <FormControl margin="dense" variant="outlined" fullWidth>
-                                <InputLabel htmlFor="useSchedules-selection">{i18n.t("plans.form.schedules")}</InputLabel>
+                                <InputLabel htmlFor="useSchedules-selection">Planning</InputLabel>
                                 <Field
                                     as={Select}
                                     id="useSchedules-selection"
@@ -209,11 +209,11 @@ export function PlanManagerForm(props) {
                         {/* CHAT INTERNO */}
                         <Grid xs={12} sm={8} md={2} item>
                             <FormControl margin="dense" variant="outlined" fullWidth>
-                                <InputLabel htmlFor="useInternalChat-selection">Chat Interno</InputLabel>
+                                <InputLabel htmlFor="useInternalChat-selection">Interne Chat</InputLabel>
                                 <Field
                                     as={Select}
                                     id="useInternalChat-selection"
-                                    label="Chat Interno"
+                                    label="Interne Chat"
                                     labelId="useInternalChat-selection-label"
                                     name="useInternalChat"
                                     margin="dense"
@@ -227,11 +227,11 @@ export function PlanManagerForm(props) {
                         {/* API Externa */}
                         <Grid xs={12} sm={8} md={4} item>
                             <FormControl margin="dense" variant="outlined" fullWidth>
-                                <InputLabel htmlFor="useExternalApi-selection">API Externa</InputLabel>
+                                <InputLabel htmlFor="useExternalApi-selection">Externe API</InputLabel>
                                 <Field
                                     as={Select}
                                     id="useExternalApi-selection"
-                                    label="API Externa"
+                                    label="Externe API"
                                     labelId="useExternalApi-selection-label"
                                     name="useExternalApi"
                                     margin="dense"
@@ -263,11 +263,11 @@ export function PlanManagerForm(props) {
                         {/* OPENAI */}
                         <Grid xs={12} sm={8} md={2} item>
                             <FormControl margin="dense" variant="outlined" fullWidth>
-                                <InputLabel htmlFor="useOpenAi-selection">Open.Ai</InputLabel>
+                                <InputLabel htmlFor="useOpenAi-selection">Open AI</InputLabel>
                                 <Field
                                     as={Select}
                                     id="useOpenAi-selection"
-                                    label="Talk.Ai"
+                                    label="Open AI"
                                     labelId="useOpenAi-selection-label"
                                     name="useOpenAi"
                                     margin="dense"
@@ -281,11 +281,11 @@ export function PlanManagerForm(props) {
                         {/* INTEGRACOES */}
                         <Grid xs={12} sm={8} md={2} item>
                             <FormControl margin="dense" variant="outlined" fullWidth>
-                                <InputLabel htmlFor="useIntegrations-selection">Integrações</InputLabel>
+                                <InputLabel htmlFor="useIntegrations-selection">Integraties</InputLabel>
                                 <Field
                                     as={Select}
                                     id="useIntegrations-selection"
-                                    label="Integrações"
+                                    label="Integraties"
                                     labelId="useIntegrations-selection-label"
                                     name="useIntegrations"
                                     margin="dense"
@@ -298,17 +298,17 @@ export function PlanManagerForm(props) {
 
                         <Grid xs={12} sm={6} md={2} item>
                             <FormControl margin="dense" variant="outlined" fullWidth>
-                                <InputLabel htmlFor="useInternal-selection">Uso Interno</InputLabel>
+                                <InputLabel htmlFor="useInternal-selection">Intern Gebruik</InputLabel>
                                 <Field
                                     as={Select}
                                     id="useInternal-selection"
-                                    label="Uso Interno"
+                                    label="Intern Gebruik"
                                     labelId="useInternal-selection-label"
                                     name="useInternal"
                                     margin="dense"
                                 >
-                                    <MenuItem value={false}>Sim</MenuItem>
-                                    <MenuItem value={true}>Não</MenuItem>
+                                    <MenuItem value={false}>Ja</MenuItem>
+                                    <MenuItem value={true}>Nee</MenuItem>
                                 </Field>
                             </FormControl>
                         </Grid>
@@ -373,7 +373,7 @@ export function PlansManagerGrid(props) {
     };
 
     const renderInternal = (row) => {
-        return row.useInternal === false ? "Sim" : "Não";
+        return row.useInternal === false ? "Ja" : "Nee";
     };
 
     return (
@@ -390,16 +390,16 @@ export function PlansManagerGrid(props) {
                         <TableCell align="left">{i18n.t("plans.form.name")}</TableCell>
                         <TableCell align="center">{i18n.t("plans.form.users")}</TableCell>
                         <TableCell align="center">{i18n.t("plans.form.connections")}</TableCell>
-                        <TableCell align="center">Filas</TableCell>
-                        <TableCell align="center">Valor</TableCell>
+                        <TableCell align="center">Wachtrijen</TableCell>
+                        <TableCell align="center">Waarde</TableCell>
                         <TableCell align="center">{i18n.t("plans.form.campaigns")}</TableCell>
                         <TableCell align="center">{i18n.t("plans.form.schedules")}</TableCell>
-                        <TableCell align="center">Chat Interno</TableCell>
-                        <TableCell align="center">API Externa</TableCell>
+                        <TableCell align="center">Interne Chat</TableCell>
+                        <TableCell align="center">Externe API</TableCell>
                         <TableCell align="center">Kanban</TableCell>
-                        <TableCell align="center">Open.Ai</TableCell>
-                        <TableCell align="center">Integrações</TableCell>
-						<TableCell align="center">Plano Interno</TableCell>
+                        <TableCell align="center">Open AI</TableCell>
+                        <TableCell align="center">Integraties</TableCell>
+						<TableCell align="center">Intern Gebruik</TableCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>
@@ -468,7 +468,7 @@ export default function PlansManager() {
             const planList = await list()
             setRecords(planList)
         } catch (e) {
-            toast.error('Não foi possível carregar a lista de registros')
+            toast.error('Kon de lijst met abonnementen niet laden')
         }
         setLoading(false)
     }
@@ -484,9 +484,9 @@ export default function PlansManager() {
             }
             await loadPlans()
             handleCancel()
-            toast.success('Operação realizada com sucesso!')
+            toast.success('Bewerking succesvol uitgevoerd!')
         } catch (e) {
-            toast.error('Não foi possível realizar a operação. Verifique se já existe uma plano com o mesmo nome ou se os campos foram preenchidos corretamente')
+            toast.error('Bewerking kon niet worden uitgevoerd. Controleer of er al een abonnement bestaat met dezelfde naam of dat alle velden correct zijn ingevuld')
         }
         setLoading(false)
     }
@@ -497,9 +497,9 @@ export default function PlansManager() {
             await remove(record.id)
             await loadPlans()
             handleCancel()
-            toast.success('Operação realizada com sucesso!')
+            toast.success('Bewerking succesvol uitgevoerd!')
         } catch (e) {
-            toast.error('Não foi possível realizar a operação')
+            toast.error('Bewerking kon niet worden uitgevoerd')
         }
         setLoading(false)
     }
@@ -576,12 +576,12 @@ export default function PlansManager() {
                 </Grid>
             </Grid>
             <ConfirmationModal
-                title="Exclusão de Registro"
+                title="Abonnement Verwijderen"
                 open={showConfirmDialog}
                 onClose={() => setShowConfirmDialog(false)}
                 onConfirm={() => handleDelete()}
             >
-                Deseja realmente excluir esse registro?
+                Wilt u dit abonnement echt verwijderen?
             </ConfirmationModal>
         </Paper>
     )

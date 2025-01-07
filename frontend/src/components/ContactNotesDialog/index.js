@@ -141,12 +141,12 @@ export default function ContactNotesDialog ({ modalOpen, onClose, ticket }) {
     return (
         <>
             <ConfirmationModal
-                title="Excluir Registro"
+                title="Notitie Verwijderen"
                 open={showOnDeleteDialog}
                 onClose={setShowOnDeleteDialog}
                 onConfirm={handleDelete}
             >
-                Deseja realmente excluir este registro?
+                Wilt u deze notitie echt verwijderen?
             </ConfirmationModal>
             <Dialog
                 open={open}

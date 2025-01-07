@@ -256,6 +256,7 @@ const QueueIntegration = ({ open, onClose, integrationId }) => {
                               <MenuItem value="pt-BR">Portugues</MenuItem>
                               <MenuItem value="en">Inglês</MenuItem>
                               <MenuItem value="es">Español</MenuItem>
+                              <MenuItem value="nl">Nederlands</MenuItem>
                             </Field>
                           </FormControl>
                         </Grid>

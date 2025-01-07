@@ -129,12 +129,12 @@ export function ContactNotes ({ ticket }) {
     return (
         <>
             <ConfirmationModal
-                title="Excluir Registro"
+                title="Notitie Verwijderen"
                 open={showOnDeleteDialog}
                 onClose={setShowOnDeleteDialog}
                 onConfirm={handleDelete}
             >
-                Deseja realmente excluir este registro?
+                Wilt u deze notitie echt verwijderen?
             </ConfirmationModal>
             <Formik
                 initialValues={newNote}
